@@ -1,0 +1,83 @@
+body { 
+    background: #dfdfdf;
+    
+    /*font-family: 'Helvetica neue', sans-serif, 'courier new' ; /*aqui irá alterar a fonte de todo corpo e eu posso inserir qntas fontes eu quiser, como opção caso não tenha alguma delas, se for dois nomes tem que colocar em aspas simples*/
+    font-family: 'Raleway', sans-serif;
+
+    color: #1f1d1d; /* essa cor irá alterar a cor da fonte de todo o corpo*/
+   
+} 
+
+.container {
+    width: 1150px; /*o div por padrão ja ocupa a tela inteira em todos os lados, porém quando eu coloco esse tamanho eu estou limitando a largura dele a essa qtdd de pixels, ai ele nao ocupará a tela inteira, entao abaixo eu coloco a quantidade de margem que eu quero para posicionar ele em algum lugar da tela*/
+    margin: 0px auto;
+}
+
+.cabeçalho1 {
+    margin: 0px 491px;
+}
+
+.cabeçalho2 {
+    margin: -9px 330px;
+}
+
+.cabeçalho3 {
+    margin: 0px 390px
+}
+
+.foto-principal { 
+
+    width: 140px;
+
+    /*a junção desses 3 elementos (margin, border, padding) chamase box model, é a maneira como uma caixa se comporta no css*/
+
+    border: 2px solid #ffffff; 
+    border-radius: 50% 50% 50% 50%; /*posso tbm informar o valor de cada canto do quadrado para fazer um formato diferente*/
+    margin: auto 20px; /* quando eu quiser colocar o mesmo valor para os quatro lados eu preciso colocar apenas um*/
+    padding: 0px; /*diferente do margim que aplica um espaçamento fora do elemento, esse padding aplica entre o elemento e a borda dele, veja na imagem*/
+
+    /*sombra da caixa*/
+
+    box-shadow: 0px 0px 10px rgb(56 55 55); /*distância da sombra horizontal, distância da sombra vertical, desfoque da sombra, cor da sombra*/
+}
+
+h1 {
+    margin-bottom: 0%;
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 3px;
+    font-size: 35px; /*aumentar o tamanho ta fonte*/
+}
+
+h2 {
+    margin-top: 0%;
+ 
+    font-style:italic; /*selecionar o tipo de fonte*/
+    color: #767474 ;
+    font-weight: 100 ; /* definir a espessura da fonte, algumas fontes sói terão configuração para certo tamanho, então dependerá da fonta*/
+    letter-spacing: 15px; /*aumenta o espaçamento entre as letras, tbm é possível trabalhar com valores negativos*/
+
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+.margemlista { 
+    margin-bottom: 30px;
+}
+
+/*.classdivisao {
+    background-color: #a53333;*/
+
+    /*width: 100px; /*por padrão o tamanho dela é zero, entao eu preciso informar um tamanho de largura e altura*/
+    /*height: 100px; /*tamanho de altura*/
+    /*margin: 0% 0% 0% 0%;
+
+    border: 2px solid red;
+    border-radius: 5% 5% 5% 5%;
+
+    box-shadow: 5px 5px 0px rgb(56 55 55);
+
+    margin: 0 auto; /*qndo eu informo apenas dois valores será aplicado o primeiro em cima e embaixo e o segundo na esquerda e na direta, contudo veja que no segundo valor foi aplicado "auto" significa que o css irá aplicar automaticamente um valor igual para esquerda e direita, deixando no meio }*/
+
+

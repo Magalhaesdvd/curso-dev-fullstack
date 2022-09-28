@@ -1,0 +1,51 @@
+body { 
+    background: #dfdfdf;
+    
+    /*font-family: 'Helvetica neue', sans-serif, 'courier new' ; /*aqui irá alterar a fonte de todo corpo e eu posso inserir qntas fontes eu quiser, como opção caso não tenha alguma delas, se for dois nomes tem que colocar em aspas simples*/
+    font-family: 'Raleway', sans-serif;
+
+    color: #1f1d1d; /* essa cor irá alterar a cor da fonte de todo o corpo*/
+    margin-left: 30px;
+} 
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.foto-principal { 
+
+    width: 140px;
+
+    /*a junção desses 3 elementos (margin, border, padding) chamase box model, é a maneira como uma caixa se comporta no css*/
+
+    border: 2px solid #ffffff; 
+    border-radius: 50% 50% 50% 50%; /*posso tbm informar o valor de cada canto do quadrado para fazer um formato diferente*/
+    margin: 30px 30px 5px 30px; /* quando eu quiser colocar o mesmo valor para os quatro lados eu preciso colocar apenas um*/
+    padding: 0px; /*diferente do margim que aplica um espaçamento fora do elemento, esse padding aplica entre o elemento e a borda dele, veja na imagem*/
+
+    /*sombra da caixa*/
+
+    box-shadow: 0px 0px 10px rgb(56 55 55); /*distância da sombra horizontal, distância da sombra vertical, desfoque da sombra, cor da sombra*/
+}
+
+h1 {
+    margin-bottom: 0%;
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 3px;
+    font-size: 35px; /*aumentar o tamanho ta fonte*/
+}
+
+h2 {
+    margin-top: 0%;
+ 
+    font-style:italic; /*selecionar o tipo de fonte*/
+    color: #767474 ;
+    font-weight: 100 ; /* definir a espessura da fonte, algumas fontes sói terão configuração para certo tamanho, então dependerá da fonta*/
+    letter-spacing: 15px; /*aumenta o espaçamento entre as letras, tbm é possível trabalhar com valores negativos*/
+
+}
+
+p {margin-bottom: 30px;}
+
+.margem1 { margin-bottom: 30px;}

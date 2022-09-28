@@ -1,0 +1,99 @@
+body { 
+    background: #dfdfdf;
+    color: #1f1d1d;
+    margin:0;
+    font-family: 'Raleway', sans-serif;
+
+    
+} 
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.cabeçalho {
+    text-align: center; /*isso serve para centralizar os elementos*/
+}
+
+
+.foto-principal { 
+    width: 140px;
+    border: 2px solid #ffffff; 
+    border-radius: 50% 50% 50% 50%;
+    margin: 30px 30px 5px 30px;
+    padding: 0px;
+    box-shadow: 0px 0px 10px rgb(56 55 55);
+}
+
+h1 {
+    margin-bottom: 0%;
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 3px;
+    font-size: 35px;
+}
+
+h2 {
+    margin-top: 0%;
+    font-style:italic;
+    color: #767474 ;
+    font-weight: 100 ;
+    letter-spacing: 15px;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+.margem1 {
+     margin-bottom: 30px;
+}
+
+.icon-social{
+    width: 20px;
+}
+
+/*como eu tenho 3 icones lado a lado, se eu colocar margem no icon-social vai colocar nos três e nao vai ficar mt bem alinhado, entao por isso eu coloco só no do meio*/
+.margemicon {
+    margin: 0 10px;
+}
+
+
+.removesublinhado{
+    text-decoration: none; /*serve para remover o sublinhado dos links*/
+}
+
+.mascaralink {
+    color: #1f1d1d ;
+    text-decoration: none;
+}
+
+.removebolinha {
+    list-style: none ; /*serve para escolher o tipo de lista*/
+    padding-left: 0;/*retirando o padding da listagem*/
+}
+
+.removemargem {
+    padding-left: 21px;
+}
+
+h4 {
+    margin-bottom: 0;
+}
+
+h5 {
+    margin: 9px 0 0 0;
+}
+
+.removeespaço {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.footer {
+    background: black;
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

@@ -1,0 +1,24 @@
+body { background: #dfdfdf; } /*para converter rgm em hexadeciaml e vice versa é só jogar no google hexadecimal to rgb converter*/
+
+p {color: #222222;}
+
+.foto-principal {
+    border: 2px solid #ffffff; /*borda da foto - qntos pixels deve ter a borda, qual o tipo de cor e qual a cor*/
+        /*essa propriedade border é uma simplificação para que eu nao precise definir as três, essa propriedade se chama shorthand
+        border-width: 5px
+        border-style: solid
+        border-color: black
+        */
+    /*border-radius: 50%; serve para arredondar a imagem, posso colocar tbm em pixel ex 200px */
+    border-radius: 30% 0% 30% 0%; /*posso tbm informar o valor de cada canto do quadrado para fazer um formato diferente*/
+
+    width: 150px;
+
+    /* tbm é possível alterar as propriedades dos lados da imagem separadamente conforme abaixo*/
+
+    border-top: 10px solid #fbff0f;
+    border-left: 10px solid #fbff0f;
+    border-bottom: 10px solid rgb(41, 228, 41);
+    border-right: 10px solid rgb(41, 228, 41);
+
+}

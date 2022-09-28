@@ -1,0 +1,11 @@
+body { 
+    background-image: url(background.jpg); /*por padrão a imagem irá se repetir uma após a outra*/
+    background-repeat: no-repeat; /*fzndo isso eu impeço ela de repetir*/
+    background-position: 100% 0%; /*com isso eu posiciono a imagem, inserindo primeiro o percentual em relação a margem esquerda p direita e depois da marg de cima p baixo*/
+    /*background-position: right center; /*tbm tenho essa maneira de informar*/
+    /*background-size: cover; /*com isso eu estico a imagem na tela inteira*/
+    /*background-attachment: fixed; /*com isso eu fixo o background para q ele nao se mova*/
+
+} 
+
+p {color: #222222;}

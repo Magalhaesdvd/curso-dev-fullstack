@@ -1,0 +1,21 @@
+body { background: #dfdfdf; } /*para converter rgm em hexadeciaml e vice versa é só jogar no google hexadecimal to rgb converter*/
+
+p {color: #222222;}
+
+.foto-principal { 
+
+    width: 120px;
+
+    /*a junção desses 3 elementos (margin, border, padding) chamase box model, é a maneira como uma caixa se comporta no css*/
+
+    border: 2px solid #ffffff; 
+    border-radius: 50% 50% 50% 50%; /*posso tbm informar o valor de cada canto do quadrado para fazer um formato diferente*/
+    margin: 30px 30px 30px 500px; /* quando eu quiser colocar o mesmo valor para os quatro lados eu preciso colocar apenas um*/
+    padding: 0px; /*diferente do margim que aplica um espaçamento fora do elemento, esse padding aplica entre o elemento e a borda dele, veja na imagem*/
+
+    /*sombra da caixa*/
+
+    box-shadow: 0px 0px 10px rgb(56 55 55); /*distância da sombra horizontal, distância da sombra vertical, desfoque da sombra, cor da sombra*/
+
+
+}

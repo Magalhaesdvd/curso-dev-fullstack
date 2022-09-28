@@ -1,0 +1,13 @@
+body { background: #dfdfdf; } /*para converter rgm em hexadeciaml e vice versa é só jogar no google hexadecimal to rgb converter*/
+
+p {color: #222222;}
+
+.foto-principal { 
+
+    border: 2px solid #ffffff; 
+    border-radius: 50% 50% 50% 50%; /*posso tbm informar o valor de cada canto do quadrado para fazer um formato diferente*/
+    width: 150px;
+    margin: 30px; /* quando eu quiser colocar o mesmo valor para os quatro lados eu preciso colocar apenas um*/
+
+    padding: 30px /*diferente do margim que aplica um espaçamento fora do elemento, esse padding aplica entre o elemento e a borda dele, veja na imagem*/
+}

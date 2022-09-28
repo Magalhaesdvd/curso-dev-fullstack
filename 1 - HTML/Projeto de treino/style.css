@@ -1,0 +1,33 @@
+html, body {height: 100%;}
+
+body{
+    background: white;
+    color: black;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+}
+
+.container{ 
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+.footer {
+    background: black;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    
+
+}
+
+.fotoperfil {
+    width: 200px;
+    border-radius: 100%;
+    border: 2px solid white;
+}

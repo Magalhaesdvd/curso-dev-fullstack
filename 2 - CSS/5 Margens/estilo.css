@@ -1,0 +1,35 @@
+body { background: #dfdfdf; } /*para converter rgm em hexadeciaml e vice versa é só jogar no google hexadecimal to rgb converter*/
+
+p {color: #222222;}
+
+.foto-principal { /*perceba que todas as características dessa classe que eu criei ficarão dentro dela, pois alterarão somente ela*/
+
+
+    border: 2px solid #ffffff; /*borda da foto - qntos pixels deve ter a borda, qual o tipo de cor e qual a cor*/
+        /*essa propriedade border é uma simplificação para que eu nao precise definir as três, essas propriedades abreviadas se chamam shorthand
+        border-width: 5px
+        border-style: solid
+        border-color: black
+        */
+    /*border-radius: 50%; serve para arredondar a imagem, posso colocar tbm em pixel ex 200px */
+    border-radius: 50% 50% 50% 50%; /*posso tbm informar o valor de cada canto do quadrado para fazer um formato diferente*/
+
+    width: 150px;
+
+    /* tbm é possível alterar as propriedades dos lados da imagem separadamente conforme abaixo*/
+
+    border-top: 2px solid #000000;
+    border-left: 2px solid #8cf8f8;
+    border-bottom: 2px solid #0c0c0c;
+    border-right: 2px solid #8cf8f8;
+
+
+    /*para alterar a margem de um elemento usamos o atributo abaixo, porém nao é a melhor forma de posicionar algo pq ao alterar o tamanho da tela nao irá se reajsutar*/
+    margin-top: 4%;
+    margin-left: 40%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+
+    /*o shorthand desse atributo: (top, rig, bot, lef)
+    margin: 2% 30% 0% 10% */
+}

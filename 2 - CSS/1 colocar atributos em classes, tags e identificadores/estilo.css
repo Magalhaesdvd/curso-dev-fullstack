@@ -1,0 +1,18 @@
+/* nestes exemplos abaixo eu estilizei usando classes e atribui cores de textos para elas, ai eu precisaria atribuir elas a cada elemento da pg, perceba que elas iniciam com ponto e depois o nome da classe*/
+.roxo { color: blueviolet; }
+.amarelo {color: darkgoldenrod;}
+
+
+/*neste outro eu estilizei diretamente na tag body*/
+body { background: pink; }
+
+
+/*neste abaixo eu estilizei diretamente na tag o que mudará todo nas pgs*/
+/*perceba que ela nao inicia com ponto como as classes*/
+h3 {color: rgb(26, 224, 102);} 
+
+.tamanhofoto {width: 200px;}
+
+
+/*essa é uma maneira de estilizar usando um identificador, porém só pode ser utilizada em uma tag apenas*/
+#identificador {color: aqua;} 
